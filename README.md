@@ -67,9 +67,6 @@ The system utilizes various database objects, including:
 
 - **GetDiscount**: Retrieves discount information.
 
-## ERD
-
-[Include an Entity-Relationship Diagram here if available.]
 
 ## Relational Schema
 
