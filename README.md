@@ -116,4 +116,84 @@ The system utilizes various database objects, including:
 | prod_name     | Product name     |
 | prod_price    | Product price    |
 | prod_quantity | Product quantity |
-| prod_group    | Product group   
+| prod_group    | Product group    |
+
+### inventory
+| Column        | Description       |
+|---------------|-------------------|
+| prod_id       | Product ID        |
+| Quantaisle    | Quantity in aisle |
+| Quantstore    | Quantity in store |
+
+### PurchaseOrder
+| Column        | Description           |
+|---------------|-----------------------|
+| orderNo       | Order number          |
+| orderDate     | Order date            |
+| quantity      | Quantity              |
+| costValue     | Cost value            |
+| salesValue    | Sales value           |
+| orderStatus   | Order status          |
+| appDate       | Approval date         |
+| appBy         | Approved by           |
+| s_id          | Supplier ID           |
+| emp_id        | Employee ID           |
+
+### ProdOrder
+| Column        | Description           |
+|---------------|-----------------------|
+| prod_id       | Product ID            |
+| orderNo       | Order number          |
+
+### Employee
+| Column        | Description     |
+|---------------|-----------------|
+| emp_id        | Employee ID     |
+| name          | Name            |
+| dob           | Date of Birth   |
+| eType         | Employee Type   |
+| doj           | Date of Joining |
+
+### users
+| Column        | Description      |
+|---------------|------------------|
+| emp_id        | Employee ID      |
+| username      | Username         |
+| password      | Password         |
+
+### sales
+| Column        | Description       |
+|---------------|-------------------|
+| Transno       | Transaction number|
+| amount        | Amount            |
+| exchange      | Exchange rate     |
+| discount      | Discount          |
+| transType     | Transaction type  |
+| postedDate    | Posted date       |
+| postedBy      | Posted by         |
+| paidAmount    | Paid amount       |
+| cust_id       | Customer ID       |
+| emp_id        | Employee ID       |
+
+### sales_child
+| Column        | Description       |
+|---------------|-------------------|
+| Transno       | Transaction number|
+| prod_id       | Product ID        |
+| quantity      | Quantity          |
+| rate          | Rate             |
+| entry_date    | Entry date        |
+| prod_amount   | Product amount    |
+
+### refund
+| Column        | Description       |
+|---------------|-------------------|
+| refund_no     | Refund number     |
+| quantity      | Quantity          |
+| rate          | Rate             |
+| date          | Date             |
+| refundBy      | Refunded by       |
+| Transno       | Transaction number|
+| prod_id       | Product ID        |
+| Transno       | Transaction number |
+
