@@ -1,23 +1,7 @@
 # Grocery Store Inventory Management System
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Java](https://img.shields.io/badge/Java-v8+-orange.svg)](https://www.java.com/)
 [![Database](https://img.shields.io/badge/Database-SQL%20Server%20%26%20MySQL-blue.svg)](#tools)
-
----
-
-## 📋 Table of Contents
-
-- [Introduction](#introduction)
-- [Key Objectives](#key-objectives)
-- [System Features](#system-features)
-- [Technology Stack](#technology-stack)
-- [Use Cases](#use-cases)
-- [User Interface](#user-interface)
-- [Database Architecture](#database-architecture)
-- [Installation & Setup](#installation--setup)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -97,47 +81,33 @@ The Inventory Management System is built to achieve the following strategic goal
 
 ### System Screenshots
 
-#### Dashboard & Overview
-> *Primary dashboard screenshot here*
-```
-[Screenshot placeholder: Dashboard]
-```
+#### Product Screen
+<img width="773" height="540" alt="image" src="https://github.com/user-attachments/assets/0e3fc4c0-312a-45f1-b029-dbc2bea662d8" />
 
-#### Inventory Management
-> *Inventory tracking interface*
-```
-[Screenshot placeholder: Inventory Management Module]
-```
 
-#### Sales Transaction Processing
-> *Sales entry and processing interface*
-```
-[Screenshot placeholder: Sales Module]
-```
+<img width="625" height="540" alt="image" src="https://github.com/user-attachments/assets/7f051f6a-8be7-4590-b4d2-31a921d52efc" />
 
-#### Purchase Order Management
-> *Purchase order creation and tracking*
-```
-[Screenshot placeholder: Purchase Order Module]
-```
+
+#### Customer Screen
+
+<img width="751" height="540" alt="image" src="https://github.com/user-attachments/assets/b6afe284-4e5e-4654-b0f8-cfb255b29632" />
+
+
+#### Purchase Order 
+
+<img width="688" height="540" alt="image" src="https://github.com/user-attachments/assets/7923b9c6-9030-4304-a8f7-949b06b92769" />
+
+
+#### Sales
+
+<img width="845" height="540" alt="image" src="https://github.com/user-attachments/assets/b38bf4b2-ffe3-4449-9a3c-ed043a600716" />
+
+<img width="683" height="540" alt="image" src="https://github.com/user-attachments/assets/68c0d684-7db3-4ddb-89b8-11c17372852a" />
+
 
 #### Supplier Management
-> *Supplier database and management interface*
-```
-[Screenshot placeholder: Supplier Management Module]
-```
 
-#### Refund Processing
-> *Refund transaction processing*
-```
-[Screenshot placeholder: Refund Module]
-```
-
-#### Reports & Analytics
-> *System reporting and analytics interface*
-```
-[Screenshot placeholder: Reports & Analytics Module]
-```
+<img width="776" height="540" alt="image" src="https://github.com/user-attachments/assets/115a5cad-7344-4b02-94f2-853c65b33f47" />
 
 ---
 
@@ -348,30 +318,3 @@ The system implements a comprehensive relational database design with the follow
 5. Log in with administrator credentials
 
 ---
-
-## Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add YourFeature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Submit a Pull Request
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## Support & Contact
-
-For questions, issues, or suggestions, please contact the development team or submit an issue through GitHub.
-
----
-
-**Last Updated**: June 2026  
-**Version**: 1.0.0
